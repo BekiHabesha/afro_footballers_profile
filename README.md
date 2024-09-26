@@ -1,8 +1,8 @@
 # $$\mathbb{\color{teal}\Huge\ {README.md} \ \color{Green}{FILE}}$$
-# ${{\color{black}\Huge\{\textsf{ 🏟\}}}}$${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{black}\Huge\{\textsf{ 🥅\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏆\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{golden}\Huge\{\textsf{ 🎖\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏅\}}}}$${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{golden}\Huge\{\textsf{ 🏆\}}}}$${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{black}\Huge\{\textsf{ 🥅\}}}}$${{\color{red}\Huge\{\textsf{ 🏟\}}}}$ 
+# ${{\color{golden}\Huge\{\textsf{ 🏟\}}}}$ ${{\color{blue}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{black}\Huge\{\textsf{ 🥅\}}}}$ ${{\color{blue}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏆\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🎖\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏅\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏟\}}}}$ 
 # $$\mathbb{\color{green}\Huge\ {ALX} \ \color{teal}{Back \ End}\}$$ $$\mathbb{\color{green}\Huge\ {Specialization}\}$$
 # $$\mathbb{\color{teal}\Huge\ {Portofolio}\}$$ $$\mathbb{\color{green}\Huge\ {Project}\}$$ $$\mathbb{\color{teal}\Huge\ {Repository}\}$$
-#  🏟⚽️🥅⚽️🏆⚽️⚽️🎖⚽️🏅⚽️🏆⚽️🥅🏟
+#  🏟 ⚽️ 🥅 ⚽️ 🏆 ⚽️ ⚽️ 🎖 ⚽️ 🏅 ⚽️ 🏆 ⚽️ 🥅 🏟
 <br>
 
 ### [**ALX Short Specializations Portfolio project**](https://intranet.alxswe.com/projects/1248) *is the portfolio project of the Webstack specialization Repo of the last-major-project of the  end my pathway at Holberton.*
@@ -11,7 +11,7 @@
 
 ##
 
-<H1 align="center", height="5500"> 🏟⚽️🏆⚽️🏟 <ins>Afro Footballers Profile Web App</ins> 🏟⚽️🥇⚽️🏟</H1>
+<H1 align="center", height="5500"> 🏟⚽️🏆 <ins>Afro Footballers Profile Web App</ins> 🥇⚽️🏟</H1>
 
 **Afro Footballers Profile is Ethiopia's Football Players, Football Coaches and Football Clubs Profile listing with details web application developed using React JS, HTML, and CSS for frontend (on client side) and Node JS, API and MongoDB Data Base for backend (on server side). Afro Footballers Profile website app is a User-friendly interface, Real-time updates, use mock API tools to simulate backend functionality, Advanced search filters (location, price, property type). It allows users to browse, search, sort, and filter property listings, as well as contact sellers and manage property listings with user authentication.**
 <br>
@@ -245,4 +245,4 @@ This **`README.md`** provides a comprehensive overview of the project, detailed 
 [![Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white)]()
 [![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=Threads&logoColor=white)](https://www.threads.net/@fifa_football_agent_bereket) 
 
-#
+##
