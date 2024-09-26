@@ -1,8 +1,8 @@
 # $$\mathbb{\color{teal}\Huge\ {README.md} \ \color{Green}{FILE}}$$
-# ${{\color{blue}\Huge\{\textsf{ 🏟\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{red}\Huge\{\textsf{ 🥅\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏆\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🎖\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{red}\golden\{\textsf{ 🏅\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏆\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{black}\Huge\{\textsf{ 🥅\}}}}$ ${{\color{red}\Huge\{\textsf{ 🏟\}}}}$ 
+# ${{\color{black}\Huge\{\textsf{ 🏟\}}}}$${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{black}\Huge\{\textsf{ 🥅\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏆\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{golden}\Huge\{\textsf{ 🎖\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏅\}}}}$${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{golden}\Huge\{\textsf{ 🏆\}}}}$${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$${{\color{black}\Huge\{\textsf{ 🥅\}}}}$${{\color{red}\Huge\{\textsf{ 🏟\}}}}$ 
 # $$\mathbb{\color{green}\Huge\ {ALX} \ \color{teal}{Back \ End}\}$$ $$\mathbb{\color{green}\Huge\ {Specialization}\}$$
 # $$\mathbb{\color{teal}\Huge\ {Portofolio}\}$$ $$\mathbb{\color{green}\Huge\ {Project}\}$$ $$\mathbb{\color{teal}\Huge\ {Repository}\}$$
-#  🏟 ⚽️ 🥅 ⚽️ 🏆 ⚽️ ⚽️ 🎖 ⚽️ 🏅 ⚽️ 🏆 ⚽️ 🥅 🏟
+#  🏟⚽️🥅⚽️🏆⚽️⚽️🎖⚽️🏅⚽️🏆⚽️🥅🏟
 <br>
 
 ### [**ALX Short Specializations Portfolio project**](https://intranet.alxswe.com/projects/1248) *is the portfolio project of the Webstack specialization Repo of the last-major-project of the  end my pathway at Holberton.*
@@ -245,4 +245,4 @@ This **`README.md`** provides a comprehensive overview of the project, detailed 
 [![Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white)]()
 [![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=Threads&logoColor=white)](https://www.threads.net/@fifa_football_agent_bereket) 
 
-##
+#
