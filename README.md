@@ -1,7 +1,7 @@
 # $$\mathbb{\color{teal}\Huge\ {README.md} \ \color{Green}{FILE}}$$
 # ${{\color{blue}\Huge\{\textsf{ 🏟\}}}}$ ${{\color{blue}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{black}\Huge\{\textsf{ 🏆\}}}}$ ${{\color{blue}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏅\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏆\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏅\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{blue}\Huge\{\textsf{ 🏟\}}}}$ 
-# $$\mathbb{\color{green}\Huge\ {ALX} \ \color{teal}{Back \ End}\}$$ $$\mathbb{\color{green}\Huge\ {Specialization}\}$$
-# $$\mathbb{\color{teal}\Huge\ {Portofolio}\}$$ $$\mathbb{\color{green}\Huge\ {Project}\}$$ $$\mathbb{\color{teal}\Huge\ {Repository}\}$$
+# $$\mathbb{\color{green}\Huge\ {ALX} \ \color{teal}{Back \ End}\}$$ $$\mathbb{\color{green}\Huge\ {Specialization}\}$$ $$\mathbb{\color{teal}\Huge\ {Program}\}$$
+# $$\mathbb{\color{teal}\Huge\ {Final}\}$$ $$\mathbb{\color{teal}\Huge\ {Portofolio}\}$$ $$\mathbb{\color{teal}\Huge\ {Project}\}$$ $$\mathbb{\color{green}\Huge\ {Repository}\}$$
 # ${{\color{blue}\Huge\{\textsf{ 🏟\}}}}$ ${{\color{blue}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{black}\Huge\{\textsf{ 🏆\}}}}$ ${{\color{blue}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏅\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏆\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{golden}\Huge\{\textsf{ 🏅\}}}}$ ${{\color{black}\Huge\{\textsf{ ⚽️\}}}}$ ${{\color{blue}\Huge\{\textsf{ 🏟\}}}}$ 
 <br>
 
@@ -13,11 +13,11 @@
 
 <H1 align="center", height="5500"> 🏟⚽️🏆 <ins>Afro Footballers Profile Web App</ins> 🥇⚽️🏟</H1>
 
-**Afro Footballers Profile is Ethiopia's Football Players, Football Coaches and Football Clubs Profile listing with details web application developed using React JS, HTML, and CSS for frontend (on client side) and Node JS, API and MongoDB Data Base for backend (on server side). Afro Footballers Profile website app is a User-friendly interface, Real-time updates, use mock API tools to simulate backend functionality, Advanced search filters (location, price, property type). It allows users to browse, search, sort, and filter property listings, as well as contact sellers and manage property listings with user authentication.**
+**Afro Footballers Profile is Ethiopia's Football Players, Football Coaches and Football Clubs Profile listing with details web application developed using React JS, HTML, and CSS for frontend (on client side) and Node JS, API and MongoDB Data Base for backend (on server side). Afro Footballers Profile website app is a User-friendly interface, Real-time updates, use API tools to simulate backend functionality, Advanced search filters (a search bar to filter player by Player Name, Date of Birth, Age, Height, Position, Alternative Position, Nationality, National Team Career, Current club, Contract expires Date, Contract option year, Last contract extension date, Match Played, Goal Scored, Goal Assisted, Salary, Market Value, Player Agent, Previous Clubs, Cup Winning, Ethiopian Premier League Cup Winning, Ethiopian Clubs Cup Winning, CAF Champions League Cup Winning, CAF Confederations Cup Winning, AFCON Cup Winning from Player data (Mongodb Database). a search bar to filter coach by Coach Name, Date of Birth, Age, Height, Position, Nationality, National Team Career, Coaching License Level, Coaching Experience Year, Current club Joined, Current club Joined date, Contract expires date, Contract option date, Last contract extension date, Match Coached, Match Winning, Match Loss, Match Draw, Salary, Market Value, Previous Clubs, Cup Winning, Ethiopian Premier League Cup Winning, Ethiopian Clubs Cup Winning, CAF Champions League Cup Winning, CAF Confederations Cup Winning, AFCON Cup Winning from Coach data (Mongodb Database). a search bar to filter club by Club Name, Founded Date, Club Age, Club City, Club Country, National Team Players number, Squad Size number, Foreign Players number, Local Players number, U20 Players number, League Level, League Point, League Table Rank, Market Value, Cup Winning number, Ethiopian Premier League Cup Winning number, Ethiopian Clubs Cup Winning number, CAF Champions League Cup Winning number, CAF Confederations Cup Winning, Club's Women Team, Club's U20 Team, Club's U17 Team from Club data (Mongodb Database)). It allows users to browse, search, sort, and filter Player, Coach and Club Profile details, as well as contact and manage profile listings with user authentication..**
 <br>
 <br>
 
-To The future It will adding and allows secure payment gateways, interactive maps, Review and rating system for properties and agents.  with Detailed property listings of photos and videos, virtual tours, Clear and consistent pricing information, Interactive maps for accurate site locations and Direct messaging between buyers and sellers.
+To The future the web app will adding another African Countries League and allows secure payment gateways, Reviews and rating system for players, coaches, clubs, fans, and agents. 
 
 ##
 
@@ -39,48 +39,55 @@ To The future It will adding and allows secure payment gateways, interactive map
 
 The project is structured as follows:
 
-ethio-properties/<br>
+afro_footballers_profile/<br>
 │<br>
-├── public/<br>
-│   ├── index.html<br>
-│   ├── images/<br>
-│   │   ├── logo_with_name.png<br>
-│   │   ├── ET33c.png<br>
-│   │   ├── property1.jpg<br>
-│   │   ├── property2.jpg<br>
-│   │   └── property3.jpg<br>
-│   └── favicon.ico<br>
+├── backend_on_server_side/<br>
+│   ├── config/<br>
+│   │   └── db.js<br>
+│   ├── controllers/<br>
+│   │   ├── coachController.js<br>
+│   │   ├── clubController.js<br>
+│   │   ├── playerController.js<br>
+│   ├── models/<br>
+│   │   ├── Coach.js<br>
+│   │   └── Club.js<br>
+│   │   └── Player.js<br>
+│   ├── routes/<br>
+│   │   ├── coachRoutes.js<br>
+│   │   └── clubRoutes.js<br>
+│   │   └── playerRoutes.js<br>
+│   ├── server.js<br>
+│   └── package.json<br>
 │<br>
-├── src/<br>
-│   ├── components/<br>
-│   │   ├── Header.js<br>
-│   │   ├── Footer.js<br>
-│   │   ├── PropertyList.js<br>
-│   │   ├── PropertyCard.js<br>
-│   │   ├── SearchBar.js<br>
-│   │   ├── Pagination.js<br>
-│   │   ├── Sorting.js<br>
-│   │   ├── ContactForm.js<br>
-│   │   └── Authentication.js<br>
-│   │<br>
-│   ├── data/<br>
-│   │   ├── mockProperties.js<br>
-│   │<br>
-│   ├── pages/<br>
-│   │   ├── HomePage.js<br>
-│   │   ├── ContactUsPage.js<br>
-│   │   ├── ServicesPage.js<br>
-│   │   ├── AboutUsPage.js<br>
-│   │   ├── LoginPage.js<br>
-│   │   ├── SigninPage.js<br>
-│   │   └── PropertyDetailsPage.js<br>
-│   │<br>
-│   ├── App.js<br>
-│   ├── index.js<br>
-│   ├── App.css<br>
-│   └── mockAPI.js<br>
 │<br>
-├── package.json<br>
+├── frontend_on_client_side/<br>
+│   ├── public/<br>/<br>
+│   │   ├── index.html<br>
+│   │   └── logo.png<br>
+│   ├── src/<br>
+│   │   ├── assets/<br>
+│   │   │     ├──images/<br>
+│   │   │     │     ├── Asmallplogo_blackball.png<br>
+│   │   │     │     ├── Asmallpfootballersprofile.png<br>
+│   │   │     │     ├── Efflogo.png<br>
+│   │   │     └──   └── logo.png<br>
+│   │   ├── components/<br>
+│   │   │     ├── Header.js<br>
+│   │   │     ├── Nav.js<br>
+│   │   │     └── SearchBar.js<br>
+│   │   ├── pages/<br>
+│   │   │   ├── Home.js<br>
+│   │   │   ├── ClubList.js<br>
+│   │   │   ├── CoachList.js<br>
+│   │   │   ├── PlayerList.js<br>
+│   │   │   ├── Login.js<br>
+│   │   │   └── SignIn.js<br>
+│   │   │<br>
+│   │   ├── App.js<br>
+│   │   ├── index.js<br>
+│   │   ├── mockData.js<br>
+│   │   └── styles.css.js<br>
+│   └── package.json<br>
 ├── .gitignore<br>
 └── README.md<br>
 <br>
@@ -90,9 +97,11 @@ ethio-properties/<br>
 - **Header.js**: Contains the navigation menu and search form.
 - **Footer.js**: Contains footer details, including social media links.
 - **PropertyCard.js**: Displays individual property details.
-- **PropertyList.js**: Displays a list of property cards.
-- **SearchBar.js**: Allows users to search for properties.
-- **Pagination.js**: Handles pagination of property listings.
+- **ClubList.js**: Displays a list of Clubs profile.
+- **CoachList.js**: Displays a list of Coaches profile.
+- **PlayerList.js**: Displays a list of Players profile.
+- **SearchBar.js**: Allows users to search for profiles.
+- **Pagination.js**: Handles pagination of profiles listings.
 - **Sorting.js**: Provides options to sort property listings.
 - **ContactForm.js**: Allows users to send inquiries to property managers.
 - **Authentication.js**: Manages user login for accessing property management features.
@@ -117,23 +126,81 @@ To set up the project locally, follow these steps:
 1. **Clone the repository:**
 
     ```
-    git clone https://ghp_aZBG7i81iV1G--------l7k046ZS04R0jRHng@github.com/BekaHabesha/ethio-properties.git
-    cd ethio-properties
+git clone https://ghp_IL1Rse9IHwWU5IQEXH------------n1IGrCe@github.com/BekiHabesha/afro_footballers_profile.git
+    cd afro_footballers_profile
     ```
 <br>
 
-2. **Install dependencies:**
+2. **Initialize the backend project**
+
+    ```
+mkdir backend_on_server_side
+cd backend_on_server_side
+
+npm init -y
+    ```
+
+3. **Install required packages:**
+
+    ```
+npm install express mongoose dotenv bcryptjs jsonwebtoken cors nodemon
+    ```
+
+4. Setup MongoDB Connection (config/db.js)
+  
+    ```
+const mongoose = require('mongoose');
+
+const connectDB = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log('MongoDB connected successfully.');
+  } catch (error) {
+    console.error(`Error: ${error.message}`);
+    process.exit(1);
+  }
+};
+    ```
+
+5. **Environment Variables (.env) Create a .env file in the backend folder with:**
+
+    ```
+MONGO_URI=<Your_MongoDB_Connection_String>
+PORT=5000
+    ```
+
+6. **Frontend Setup**
+
+    ```
+npx create-react-app frontend_on_client_side
+    ```
+
+7. **Install dependencies:**
 
     Ensure that you have Node.js and npm installed on your machine.
 
     ```
+    cdfrontend_on_client_side
     npm install
     ```
 <br>
 
-3. **Run the development server:**
+8. **Run the Application:**
+
+* **Backend:** Start the backend server
 
     ```
+    cd backend_on_server_side
+    node server.js
+    ```
+
+* **Frontend:** Start the React App
+
+    ```
+    cd frontend_on_client_side
     npm start
     ```
 <br>
@@ -168,27 +235,21 @@ The production-ready files will be in the `build/` directory.
 
 1. **Navigating the Application:**
 
-    - **Home:** Browse the latest properties listed.
-    - **Search:** Use the search bar to filter properties by location, title, price, size, bedrooms, real estate company and or other criteria.
-    - **Sort:** Sort properties by price, location, size, and more.
-    - **Contact Form:** Use the contact form to get in touch with property sellers.
-    - **Authentication:** Log in or sign up to manage your property listings.
-<br>
-
-2. **Adding/Editing Properties:**
-
-    - Users must log in to add or edit property listings.
-    - The listings can include details like the number of rooms, bedrooms, bathrooms, price, size, location, property type, and images.
+    - **Home:** Browse the latest profile listed.
+    - **Search:** Use the search bar to filter profile by Search for profile based on player, coach, club and other criteria.
+    - **Sort:** Sort Profile can be sorted by various criteria, such as player salary, club city, coach experience and etc.
+    - **Contact Form:** Use the contact form to get in touch with profiles.
+    - **Authentication:** Log in or sign up to manage your profile listings.
 <br>
 
 3. **Pagination:**
 
-    - The property list is paginated for easier navigation when there are many properties.
+    - The profile list is paginated for easier navigation when there are many profiles.
 <br>
 
 4. **Sorting:**
 
-    - Properties can be sorted by various criteria, such as price, size, and location.
+    - Profile can be sorted by various criteria, such as player salary, club city, coach experience and etc.
 <br>
 
 5. **Mock Data:**
@@ -199,12 +260,12 @@ The production-ready files will be in the `build/` directory.
 
 # Features
 
-- **Property Listings**: Browse through various property listings with details like price, size, location, and more.
-- **Search Functionality**: Search for properties based on location, price, type and other criteria.
-- **Sorting Options**: Sort properties by price, size, location, type and more.
-- **Pagination**: Navigate through multiple pages of property listings.
+- **Profile Listings**: Browse through various profile listings with details.
+- **Search Functionality**: Search for profile based on player, coach, club and other criteria.
+- **Sorting Options**: Sort properties by name, club, goal, market value and more.
+- **Pagination**: Navigate through multiple pages of profile listings.
 - **Contact Form**: Allows users to send inquiries about properties.
-- **Authentication**: Simple login form to manage property listings.
+- **Authentication**: Simple login form to manage profile listings.
 
 ##
 
